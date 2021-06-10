@@ -112,9 +112,9 @@ public interface SecurityConstants {
      */
     String DEFAULT_IMAGE_FONT_SIZE = "30";
     /**
-     * zlt公共前缀
+     * ylw公共前缀
      */
-    String ZLT_PREFIX = "zlt:";
+    String YLW_PREFIX = "ylw:";
     /**
      * 缓存client的redis key，这里是hash结构存储
      */

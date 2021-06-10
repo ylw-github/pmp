@@ -1,0 +1,10 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.ylw.log.config.TtlMDCAdapterInitializer
+
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.ylw.log.config.LogAutoConfigure,\
+com.ylw.log.service.impl.LoggerAuditServiceImpl,\
+com.ylw.log.service.impl.DbAuditServiceImpl,\
+com.ylw.log.aspect.AuditLogAspect,\
+com.ylw.log.trace.WebTraceFilter,\
+com.ylw.log.trace.FeignTraceInterceptor
