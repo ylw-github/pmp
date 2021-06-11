@@ -1,0 +1,16 @@
+server:
+  port: 8000
+  servlet:
+    session:
+      cookie:
+        name: OAUTH2SESSION
+
+spring:
+  application:
+    name: uac-server
+
+encrypt:
+  key-store:
+    location: classpath:ylw.jks
+    secret: ylw!@#$
+    alias: ylw

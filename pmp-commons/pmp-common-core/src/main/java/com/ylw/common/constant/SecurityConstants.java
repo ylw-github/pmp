@@ -164,4 +164,9 @@ public interface SecurityConstants {
      */
     String ID_TOKEN = "id_token";
 
+    /**
+     * 令牌颁发者
+     */
+    String ISS = "http://ylw1993.cn";
+
 }
