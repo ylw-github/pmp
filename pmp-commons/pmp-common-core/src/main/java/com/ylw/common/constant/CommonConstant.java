@@ -121,7 +121,7 @@ public interface CommonConstant {
     /**
      * 负载均衡策略-版本号 信息头
      */
-    String Z_L_T_VERSION = "y-l-w-version";
+    String Y_L_W_VERSION = "y-l-w-version";
     /**
      * 注册中心元数据 版本号
      */

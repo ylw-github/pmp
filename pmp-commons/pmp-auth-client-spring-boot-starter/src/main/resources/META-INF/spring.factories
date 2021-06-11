@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.ylw.auth.config.SecurityPropertiesConfig,\
+com.ylw.auth.store.AuthDbTokenStore,\
+com.ylw.auth.store.AuthRedisTokenStore,\
+com.ylw.auth.store.AuthJwtTokenStore,\
+com.ylw.auth.store.ResJwtTokenStore
